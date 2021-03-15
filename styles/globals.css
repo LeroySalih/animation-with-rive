@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns : 1fr 1fr;
+  height: 100%;
+}
+
+.side-bar {
+
+}
+
+.main-page {
+  height: 100%;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
