@@ -17,13 +17,15 @@ a {
 
 .container {
   width: 80vw;
-  height: 100vh;
   margin: auto;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-column-gap: 20px;
 }
 
 .page-layout {
   display: grid;
-  grid-template-columns : 1fr 1fr;
+  grid-template-columns : 300px 1fr;
   height: 100%;
 }
 
